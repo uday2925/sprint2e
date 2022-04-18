@@ -87,6 +87,17 @@
       "tenth_score": 43,
       "twelth_score": 74,
       "preferred_branch": "commerce"
+    },
+    {
+      "id": 9,
+      "first_name": "UDAY KIRAN REDDY",
+      "last_name": "KATTA",
+      "email": "udaykiran1139@gmail.com",
+      "gender": "male",
+      "age": "30",
+      "tenth_score": "60",
+      "twelth_score": "90",
+      "preferred_branch": ""
     }
   ]
 }

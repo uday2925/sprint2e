@@ -7,14 +7,15 @@ export const AddStudent = () => {
         first_name:"" ,
         last_name:"" ,
         email:"",
-        gender: "",
-        age: "",
-        tenth_score: "",
+        gender:"",
+        age:"",
+        tenth_score:"",
         twelth_score:"" ,
-        preferred_branch: "",
+        preferred_branch:"",
     })
     function onchanges(e){
-        setFormdata({...formdata,[e.target.name]:e.target.value})
+        setFormdata({...formdata,[e.target.name]:e.target.value});
+        console.log(e.target.name,e.target.value)
     }
     
 
