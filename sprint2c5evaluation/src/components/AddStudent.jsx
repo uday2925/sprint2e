@@ -82,6 +82,7 @@ export const AddStudent = () => {
               type="radio"
               value={"male"}
               onChange={(e)=>{onchanges(e)}}
+              required
             />{" "}
             Female{" "}
             <input
@@ -90,6 +91,7 @@ export const AddStudent = () => {
               type="radio"
               value={"female"}
               onChange={(e)=>{onchanges(e)}}
+              required
             />
           </div>
         </div>
@@ -101,6 +103,7 @@ export const AddStudent = () => {
             className="age"
             placeholder="enter age"
             onChange={(e)=>{onchanges(e)}}
+            required
           />
         </div>
         <div>
@@ -111,6 +114,7 @@ export const AddStudent = () => {
             className="tenth_score"
             placeholder="enter 10th score"
             onChange={(e)=>{onchanges(e)}}
+            required
           />{" "}
         </div>
         <div>
@@ -121,6 +125,7 @@ export const AddStudent = () => {
             className="twelth_score"
             placeholder="enter 12th score"
             onChange={(e)=>{onchanges(e)}}
+            required
           />{" "}
         </div>
         <div>
