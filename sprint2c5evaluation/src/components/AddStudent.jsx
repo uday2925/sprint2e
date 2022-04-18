@@ -11,7 +11,7 @@ export const AddStudent = () => {
         age:"",
         tenth_score:"",
         twelth_score:"" ,
-        preferred_branch:"",
+        preferred_branch:"law",
     })
     function onchanges(e){
         setFormdata({...formdata,[e.target.name]:e.target.value});
